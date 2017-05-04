@@ -14,6 +14,7 @@
 		C5D341C11EA91E4E00EAD96D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D341BF1EA91E4E00EAD96D /* LaunchScreen.storyboard */; };
 		C5D341CC1EA91E4F00EAD96D /* notesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D341CB1EA91E4F00EAD96D /* notesTests.swift */; };
 		C5D341D71EA91E4F00EAD96D /* notesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D341D61EA91E4F00EAD96D /* notesUITests.swift */; };
+		C5ED43CD1EBB70BA00FFD829 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ED43CC1EBB70BA00FFD829 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C5D341D21EA91E4F00EAD96D /* notesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D341D61EA91E4F00EAD96D /* notesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesUITests.swift; sourceTree = "<group>"; };
 		C5D341D81EA91E4F00EAD96D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5ED43CC1EBB70BA00FFD829 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C5D341B61EA91E4E00EAD96D /* AppDelegate.swift */,
 				C5D341B81EA91E4E00EAD96D /* ViewController.swift */,
+				C5ED43CC1EBB70BA00FFD829 /* DetailViewController.swift */,
 				C5D341BA1EA91E4E00EAD96D /* Main.storyboard */,
 				C5D341BD1EA91E4E00EAD96D /* Assets.xcassets */,
 				C5D341BF1EA91E4E00EAD96D /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5ED43CD1EBB70BA00FFD829 /* DetailViewController.swift in Sources */,
 				C5D341B91EA91E4E00EAD96D /* ViewController.swift in Sources */,
 				C5D341B71EA91E4E00EAD96D /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				C5D341DD1EA91E4F00EAD96D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5D341DE1EA91E4F00EAD96D /* Build configuration list for PBXNativeTarget "notesTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				C5D341E01EA91E4F00EAD96D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5D341E11EA91E4F00EAD96D /* Build configuration list for PBXNativeTarget "notesUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				C5D341E31EA91E4F00EAD96D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
